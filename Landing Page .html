@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PianoApp Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 1rem;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_MavadxqBwNB031XT1VzUuN4cAhiUEYKAYg&s') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background: #ff4500;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    padding: 2rem;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.features .feature {
+    margin-bottom: 2rem;
+}
+
+.cta {
+    background: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PianoApp</div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Learn Piano The Fun Way</h1>
+            <p>Master the Piano with our interactive lessons and practice tools.</p>
+            <a href="#download" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Interactive Lessons</h3>
+            <p>Learn step-by-step with our interactive tutorials.</p>
+        </div>
+        <div class="feature">
+            <h3>Practice Tools</h3>
+            <p>Enhance your skills with our practice tools and exercises.</p>
+        </div>
+        <div class="feature">
+            <h3>Track Progress</h3>
+            <p>Monitor your progress and set goals.</p>
+        </div>
+    </section>
+
+    <section id="download" class="cta">
+        <h2>Download PianoApp</h2>
+        <p>Available on iOS and Android</p>
+        <a href="#" class="cta-button">Download Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PianoApp. All rights reserved.</p>
+    </footer>
+</body>
+</html>
